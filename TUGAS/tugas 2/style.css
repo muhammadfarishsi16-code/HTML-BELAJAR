@@ -1,0 +1,56 @@
+/* Reset */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 20px;
+  background: #f9fafb;
+  color: #111827;
+}
+
+/* Judul section dengan border-left */
+.section-title {
+  padding-left: 10px;
+  border-left: 4px solid #22c55e;
+  margin-bottom: 10px;
+}
+
+/* Box konten */
+.box {
+  background: #fff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+
+/* Foto profil bulat */
+.avatar {
+  width: 220px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #e5e7eb;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+/* Link hover */
+a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #dc2626;
+  transition: 0.3s;
+}
+
+#kontak a {
+  color: #2563eb;
+  text-decoration: none;
+}
+#kontak a:hover {
+  color: #16a34a;
+  text-decoration: underline;
+}
