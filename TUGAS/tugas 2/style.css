@@ -46,11 +46,4 @@ a:hover {
   transition: 0.3s;
 }
 
-#kontak a {
-  color: #2563eb;
-  text-decoration: none;
-}
-#kontak a:hover {
-  color: #16a34a;
-  text-decoration: underline;
-}
+
