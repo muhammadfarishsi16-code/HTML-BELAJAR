@@ -60,9 +60,8 @@
 
     <h3>Table Standard</h3>
     <!-- Shorcout: table>thead+tbody+tfoot -->
-     <!-- <th>: untuk membuat data/kolom di thead -->
-        <table border="1" style="width: 70%;"
-     <table>
+    <!-- <th>: untuk membuat data/kolom di thead -->
+        <table border="1" style="width: 70%;">
         <thead>
             <tr>
                 <th>No:</th>
@@ -76,24 +75,30 @@
                 <th>Tas Koper</th>
                 <th>500,000</th>
             </tr>
-            <tr rowspan="2">
-                <th>2.</th>
+            <tr>
+                <th rowspan="2">2.</th>
                 <th>16/06/2025</th>
-                <th>Kue Ulang Tahun</th>
+                <th rowspan="2">Kue Ulang Tahun</th>
                 <th>160.000</th>
                 
             </tr>
             <tr>
-                <th>3.</th>
+                <!--<th>3.</th>-->
                 <th>23/05/2025</th>
+                <!-- <th>Raket Bulu Tangkis</th>-->
+                <th>120.000</th>
+            </tr>
+            <tr>
+                <th>3.</th>
+                <th>01/06/2025</th>
                 <th>Raket Bulu Tangkis</th>
-                <th>1,000,000</th>
+                <th>1,500,000</th>
             </tr>
             <tfoot>
-            <td colspan="3"><b>Total Pengeluaran:</b></td>
-            <td><b>RP.1,660,000</b></td>
+                <td colspan="3"><b>Total Pengeluaran:</b></td>
+                <td><b>RP. 2.280.000</b></td>
             </tfoot>
         </thead>
-     </table>
+    </table>
 </body>
 </html>
